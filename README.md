@@ -5,10 +5,6 @@ function Transport(name,date,color,fromTo) {
     this.my =true;
     this.howManyYears = fromTo
 }
-
-
-
-
 var day = new Date().getFullYear();
 var tavria = new Transport("Таврия", 2004,"красного",7);
 var velo = new Transport("Аист", 1986,"зеленого", day - 1997);
@@ -35,7 +31,6 @@ else if (item[3]>=2&&item[3]<5){
 
 }else if (item[3]>=22) {
     var god = "года"
-
 }
     console.log( `Моим ${item[0]} видом транспорта - был ${item[1]} он был ${item[2]} цвета, и я им пользовался  ${item[3]} ${god}`
     );
